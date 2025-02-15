@@ -9,7 +9,7 @@ credentials_for_provider:
     required: true
     type: secret-input
 identity:
-  author: holysword02
+  author: 139694814
   name: data_excel
   label:
     zh_Hans: 经营分析系统

@@ -5,7 +5,7 @@ description:
   llm: 数据获取、分析
 identity:
   name: price_to_rent
-  author: holysword02
+  author: 139694814
   label:
     zh_Hans: 租售比
     en_US: Rent-to-sale ratio

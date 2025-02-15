@@ -8,7 +8,7 @@ extra:
     source: tools/brand.py
 identity:
   name: brand
-  author: holysword02
+  author: 139694814
   label:
     zh_Hans: 销售数据（日）
     en_US: Sales Data (Daily)

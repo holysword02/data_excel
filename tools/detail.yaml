@@ -5,7 +5,7 @@ description:
   llm: 数据获取、分析
 identity:
   name: detail
-  author: holysword02
+  author: 139694814
   label:
     zh_Hans: 销售数据（月、年）
     en_US: Sales Data (Month, Year)
