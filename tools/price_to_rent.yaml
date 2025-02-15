@@ -1,0 +1,49 @@
+description:
+  human:
+    en_US: 数据获取、分析
+    zh_Hans: 数据获取、分析
+  llm: 数据获取、分析
+identity:
+  name: price_to_rent
+  author: holysword02
+  label:
+    zh_Hans: 租售比
+    en_US: Rent-to-sale ratio
+extra:
+  python:
+    source: tools/price_to_rent.py
+icon: icon_s_en.svg
+parameters:
+  - form: llm
+    name: plazaId
+    type: string
+    required: true
+    label:
+      zh_Hans: 广场id
+      en_US: Square ID
+    human_description:
+      zh_Hans: 广场id
+      en_US: Square ID
+    llm_description: 广场id
+  - form: llm
+    name: startDate
+    type: string
+    required: true
+    label:
+      zh_Hans: 开始时间
+      en_US: Start time
+    human_description:
+      zh_Hans: 开始时间
+      en_US: Start time
+    llm_description: 开始时间
+  - form: llm
+    name: endDate
+    type: string
+    required: true
+    label:
+      zh_Hans: 结束时间
+      en_US: End time
+    human_description:
+      zh_Hans: 结束时间
+      en_US: End time
+    llm_description: 结束时间

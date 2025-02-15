@@ -1,0 +1,27 @@
+credentials_for_provider:
+  token:
+    label:
+      zh_Hans: 令牌
+      en_US: token
+    placeholder:
+      zh_Hans: 请输入token
+      en_US: Please enter the token
+    required: true
+    type: secret-input
+identity:
+  author: holysword02
+  name: data_excel
+  label:
+    zh_Hans: 经营分析系统
+    en_US: Business analysis system
+  description:
+    zh_Hans: 获取excel数据，销售、租售比
+    en_US: Get Excel data, sales, rent-to-sale ratio
+  icon: icon_s_en.svg
+tools:
+  - tools/brand.yaml
+  - tools/detail.yaml
+  - tools/price_to_rent.yaml
+extra:
+  python:
+    source: provider/data_excel.py
